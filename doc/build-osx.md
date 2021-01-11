@@ -43,7 +43,7 @@ Build ROCoin Core
 
 1. Clone the ROCoin Core source code:
 
-        git clone https://github.com/rocoin-project/rocoin
+        git clone https://github.com/rocoindev/rocoin
         cd rocoin
 
 2.  Build ROCoin Core:

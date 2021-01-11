@@ -1,7 +1,7 @@
 ROCoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/rocoin-project/rocoin.svg?branch=master)](https://travis-ci.org/rocoin-project/rocoin)
+[![Build Status](https://travis-ci.org/rocoindev/rocoin.svg?branch=master)](https://travis-ci.org/rocoindev/rocoin)
 
 https://rocoin.org
 
@@ -27,7 +27,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/rocoin-project/rocoin/tags) are created
+completely stable. [Tags](https://github.com/rocoindev/rocoin/tags) are created
 regularly to indicate new official, stable release versions of ROCoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)

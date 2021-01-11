@@ -555,7 +555,7 @@ void SetupServerArgs()
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/rocoin-project/rocoin>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/rocoindev/rocoin>";
     const std::string URL_WEBSITE = "<https://rocoin.org>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +

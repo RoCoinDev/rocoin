@@ -23,7 +23,7 @@ packages:
 - "python"
 - "rename"
 remotes:
-- "url": "https://github.com/rocoin-project/rocoin.git"
+- "url": "https://github.com/rocoindev/rocoin.git"
   "dir": "rocoin"
 files: []
 script: |

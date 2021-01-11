@@ -8,7 +8,7 @@ recommended to upgrade to this version as soon as possible.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/rocoin-project/rocoin/issues>
+  <https://github.com/rocoindev/rocoin/issues>
 
 Upgrading and downgrading
 =========================
