@@ -136,7 +136,11 @@ public:
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
 
-        checkpointData = { };
+        checkpointData = {
+			{
+				{0, uint256S("0x9c8fc737891bab8743823da674b6190003ee96be3d6e219cfe5e07742a228dca")},
+			}
+			};
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats 4096 2cdba8c47858d34cf0e02dfb8733263a3ed8705b1663ec7c158783d77b93e7ee
@@ -227,8 +231,7 @@ public:
 
         checkpointData = {
             {
-                {2056, uint256S("17748a31ba97afdc9a4f86837a39d287e3e7c7290a08a1d816c5969c78a83289")},
-            }
+             }
         };
 
         chainTxData = ChainTxData{
@@ -304,8 +307,7 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9")},
-            }
+             }
         };
 
         chainTxData = ChainTxData{
