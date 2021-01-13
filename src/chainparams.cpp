@@ -110,9 +110,9 @@ public:
         m_assumed_blockchain_size = 22;
         m_assumed_chain_state_size = 3;
 
-        genesis = CreateGenesisBlock(1610352000, 651499, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1610552307, 47343, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x9c8fc737891bab8743823da674b6190003ee96be3d6e219cfe5e07742a228dca"));
+        assert(consensus.hashGenesisBlock == uint256S("0x44328fe7fe031ef07a5897b73b9276068516f47b6bac921fb01cef9e65c5e790"));
         assert(genesis.hashMerkleRoot == uint256S("0x50783d39da0ae093306f0d93219834542581d65c7c9e8e8cd1b08f9eee7ad70f"));
         // Note that of those which support the service bits prefix, most only support a subset of
         // possible options.
@@ -138,7 +138,7 @@ public:
 
         checkpointData = {
 			{
-				{0, uint256S("0x9c8fc737891bab8743823da674b6190003ee96be3d6e219cfe5e07742a228dca")},
+				{0, uint256S("0x44328fe7fe031ef07a5897b73b9276068516f47b6bac921fb01cef9e65c5e790")},
 			}
 			};
 
@@ -203,9 +203,9 @@ public:
         m_assumed_blockchain_size = 2;
         m_assumed_chain_state_size = 1;
 
-        genesis = CreateGenesisBlock(1610352000, 651499, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1610552370, 812236, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x9c8fc737891bab8743823da674b6190003ee96be3d6e219cfe5e07742a228dca"));
+        assert(consensus.hashGenesisBlock == uint256S("0xda69dced9d2d78d761eda5821b80f607ab11750ba8e245e1e2ce4c08e3cc8442"));
         assert(genesis.hashMerkleRoot == uint256S("0x50783d39da0ae093306f0d93219834542581d65c7c9e8e8cd1b08f9eee7ad70f"));
 
         vFixedSeeds.clear();
@@ -230,9 +230,10 @@ public:
         fMineBlocksOnDemand = false;
 
         checkpointData = {
-            {
-             }
-        };
+			{
+				{0, uint256S("0xda69dced9d2d78d761eda5821b80f607ab11750ba8e245e1e2ce4c08e3cc8442")},
+			}
+			};
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats 4096 e79561972208ba3a02c308482176b33f3ec841d4213ea7bbaa3f22b7c8a16f32
