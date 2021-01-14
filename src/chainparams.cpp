@@ -229,17 +229,15 @@ public:
         fRequireStandard = false;
         fMineBlocksOnDemand = false;
 
-        checkpointData = {
-			{
-				{0, uint256S("0xda69dced9d2d78d761eda5821b80f607ab11750ba8e245e1e2ce4c08e3cc8442")},
-			}
-			};
+          checkpointData = {
+            {
+             }
+        };
 
         chainTxData = ChainTxData{
-            // Data from rpc: getchaintxstats 4096 e79561972208ba3a02c308482176b33f3ec841d4213ea7bbaa3f22b7c8a16f32
-            /* nTime    */ 1565582448,
-            /* nTxCount */ 2848910,
-            /* dTxRate  */ 0.02265200874042768
+            0,
+            0,
+            0
         };
 
         /* enable fallback fee on testnet */
